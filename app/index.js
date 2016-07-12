@@ -21,7 +21,8 @@ var Link = React.createClass({
   },
   render() {
     return (
-      <span>
+      <span style={{color: 'blue', 'cursor': 'pointer'}}
+            onClick={this.changeURL}>
         {this.props.children}
       </span>
     );
