@@ -22,7 +22,7 @@ var Link = React.createClass({
   render() {
     return (
       <span>
-        AMR
+        {this.props.children}
       </span>
     );
   }
